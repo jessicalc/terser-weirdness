@@ -8,7 +8,8 @@ In browser, go to http://localhost:8080/ and open the console.
 
 They're inputs compile to
 
-```!function() {
+```
+!function() {
   "use strict";
   let o = 0;
   for (let o = 0; o < 10; o++) {
@@ -16,6 +17,7 @@ They're inputs compile to
     console.log(o)
   }
 }();
+
 ```
 
 Is this the expected behavior?
